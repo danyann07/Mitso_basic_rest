@@ -13,7 +13,7 @@ class Student{
 
   constructor({
                 lastName = 'Anoshka',
-                firstName = 'Danil',
+                firstName = 'Daniil',
                 numCertificate = 345346,
               }: Partial<TStudent> = {}) {
     this.id = uuid();
